@@ -1,0 +1,231 @@
+svg {
+    margin-left: 30px;
+}
+
+#aircraft {
+    animation: aircraft 10s forwards;
+}
+@keyframes aircraft {
+    0%{
+        transform: translateY(-450px);
+    }
+    50%{
+        transform: translateY(0);
+    }
+    60%{
+        transform: translateY(0);
+    }
+    to{
+        transform: translateY(-450px);
+    }
+}
+#ray {
+    animation: ray 10s forwards;
+}
+@keyframes ray {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 0;
+    }
+    52%{
+        opacity: 1;
+    }
+    55%{
+        opacity: 1;
+    }
+    70%{
+        opacity: 0;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+#charector1 {
+    animation: caractor-one 10s forwards;
+}
+@keyframes caractor-one {
+    0% {
+        transform: translateY(0);
+    }
+    10% {
+        transform: translateY(0);
+    }
+    20% {
+        transform: translateY(0);
+    }
+    30% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-1000px);
+    }
+}
+#eye-2 {
+    animation: eye-2 10s forwards;
+}
+@keyframes eye-2 {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-2px);
+    }
+    55% {
+        transform: translateY(-4px);
+    }
+    60% {
+        transform: translateY(-4px);
+    }
+    70% {
+        transform: translateY(-4px);
+    }
+    80% {
+        transform: translateY(-4px);
+    }
+    90% {
+        transform: translateY(-4px);
+    }
+    100% {
+        transform: translateY(0);
+        d:path("M803.117 549.778C807.047 549.778 810.233 548.037 810.233 545.889C810.233 543.741 807.047 542 803.117 542C799.186 542 796 543.741 796 545.889C796 548.037 799.186 549.778 803.117 549.778Z")
+    }
+}
+#eye {
+    animation: eye-1 10s forwards;
+}
+@keyframes eye-1 {
+    0% {
+        transform: translateY(0);
+    }
+    10% {
+        transform: translateY(0);
+    }
+    20% {
+        transform: translateY(0);
+    }
+    30% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-1px, -1px);
+    }
+    50% {
+        transform: translate(-3px, -3px);
+    }
+    60% {
+        transform: translateY(-5px, -5px);
+    }
+    70% {
+        transform: translate(-6px, -6px);
+    }
+    80% {
+        transform: translate(-6px, -6px);
+    }
+    85% {
+        transform: translate(-6px, -6px);
+    }
+}
+
+#left-hand-2 {
+    animation: hand-1 10s forwards;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+@keyframes hand-1 {
+    0% {
+        transform: rotate(0) translateY(0);
+    }
+    20% {
+        transform: rotate(0) translateY(-3px);
+    }
+    30% {
+        transform: rotate(15deg) translateY(-5px);
+    }
+    40% {
+        transform: rotate(20deg) translateY(-5px);
+    }
+    50% {
+        transform: rotate(30deg) translateY(-7px);
+    }
+    60% {
+        transform: rotate(45deg) translateY(-10px);
+    }
+    100% {
+        transform: rotate(0) translateY(-5px);
+    }
+}
+#left-hand {
+    animation: handy 10s forwards;
+    transform-box: fill-box;
+    transform-origin: center;
+}
+@keyframes handy {
+    0%,20% {
+        transform: rotate(0);
+    }
+    30% {
+        transform: rotate(0);
+    }
+    40% {
+        transform: rotate(0);
+    }
+    60% {
+        transform: rotate(55deg);
+    }
+    80% {
+        transform: rotate(55deg);
+    }
+}
+#right-hand {
+    animation: handy-2 10s forwards;
+    transform-box: fill-box;
+    transform-origin: center;
+}
+@keyframes handy-2 {
+    0%,20% {
+        transform: rotate(0);
+    }
+    30% {
+        transform: rotate(0);
+    }
+    40% {
+        transform: rotate(0);
+    }
+    60% {
+        transform: rotate(-55deg);
+    }
+    80% {
+        transform: rotate(-55deg);
+    }
+}
+#mouth {
+    animation: mouth 10s forwards;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+@keyframes mouth {
+    75%,100% {
+        d:path("M458.216 563.056C458.892 565.085 458.065 567.178 455.917 568.875C453.769 570.571 448.214 568.505 444.5 568.875C440.786 569.244 439.218 572.019 436.113 570.845C433.009 569.671 430.885 567.871 430.209 565.842L430.204 565.827C428.804 561.6 436.765 558.265 444.5 557.5C452.235 556.735 456.816 558.829 458.216 563.056Z");
+    }
+}
+#mouth-2 {
+    animation: mouth-2 10s forwards;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+@keyframes mouth-2 {
+    70%,80% {
+        d:path("M812 572C820.284 572 817.606 562 818.5 567C818.5 564.239 820.284 562 812 562C803.716 562 808.5 567 803 567C803 569.761 803.716 572 812 572Z")
+    }
+    90%,100%{
+        d:path("M812 572C820.284 572 825.606 567 826.5 572C826.5 569.239 820.284 562 812 562C803.716 562 802 567 796.5 567C796.5 569.761 803.716 572 812 572Z");
+    }
+}
